@@ -7,7 +7,6 @@ url: https://leetcode.com/problems/simplify-path/description/?envType=problem-li
 class Solution(object):
     def simplifyPath(self, path):
         path_list = path.split("/")
-        # print(path_list)
         stack = []
         for s in path_list:
             if s == "." or s == "":
@@ -15,7 +14,6 @@ class Solution(object):
             elif s == "..":
                 if stack:
                     stack.pop()
-            # почему нельзя написать elif s == '..' and stack
             else:
                 stack.append(s)
         res = "/" + "/".join(stack)
