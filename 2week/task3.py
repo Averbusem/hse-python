@@ -1,3 +1,9 @@
+"""
+https://leetcode.com/problem-list/string/?difficulty=MEDIUM
+URL: https://leetcode.com/problems/fraction-to-recurring-decimal/description/?envType=problem-list-v2&envId=string&difficulty=MEDIUM
+"""
+
+
 class Solution(object):
     def fractionToDecimal(self, numerator, denominator):
         """
