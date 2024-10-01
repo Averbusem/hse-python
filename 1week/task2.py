@@ -12,7 +12,6 @@ class Solution(object):
                 right += 1
             return right - left - 1
 
-        result = ""
         start, end = 0, 0  # начало и конец самого длинного палиндрома
         for i in range(len(s)):
             left, right = i, i
@@ -24,4 +23,3 @@ class Solution(object):
                 end = i + max_len // 2
 
         return s[start : end + 1]
-
