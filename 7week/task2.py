@@ -64,4 +64,3 @@ class Solution:
 
 sol = Solution()
 print(sol.countOfSubstrings("iqeaouqi", 2))
-# должно врнуть 3, а возращает 2
