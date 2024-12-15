@@ -1,5 +1,5 @@
 """
-https://leetcode.com/problem-list/sliding-window/?difficulty=MEDIUM
+https://leetcode.com/problem-list/binary-tree/
 URL: https://leetcode.com/problems/validate-binary-search-tree/submissions/1472855804/?envType=problem-list-v2&envId=binary-tree&difficulty=MEDIUM
 """
 
